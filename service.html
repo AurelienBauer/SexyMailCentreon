@@ -1,0 +1,46 @@
+<mjml version="3.3.3">
+    <mj-body background-color="#F4F4F4" color="#55575d" font-family="Arial, sans-serif">
+        <mj-section background-color="{{ color }}" background-repeat="repeat" padding="20px 0" text-align="center"
+                    vertical-align="top">
+            <mj-column>
+                <mj-text align="center" color="#ffffff" font-family="Arial, sans-serif" font-size="25px"
+                         line-height="22px" padding="10px 25px">{{ servicestate }}
+
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#ffffff" background-repeat="repeat" background-size="auto"
+                    padding="20px 0px 20px 0px" text-align="center" vertical-align="top">
+            <mj-column>
+                <mj-text align="justify" color="#55575d" font-family="Arial, sans-serif" font-size="14px"
+                         line-height="28px" padding="0px 25px 0px 25px">{{ notificationtype }}<br/><br/>
+                    <b>Service:</b> {{ servicedesc }}<br/>
+                    <b>Host:</b> {{ hostalias }}<br/>
+                    <b>Address:</b> {{ hostaddress }} <br/>
+
+                    <b>Date/Time:</b> {{ date }}<br>
+                    <b>Additional Info :</b><br>
+                      {{ serviceoutput }}<br/>
+                </mj-text>
+
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#444444" background-repeat="repeat" padding="20px 0" text-align="center"
+                    vertical-align="top">
+            <mj-column>
+                <mj-text align="center" color="#ffffff" font-family="Arial, sans-serif" font-size="13px"
+                         line-height="22px" padding="10px 25px"><a style="color:#ffffff" href="mailto:support@atheo.net">support@atheo.net</a>
+                    - +33 3 88 99 02 89 - <a href="https://helpdesk.atheo.net" style="color:#ffffff">https://helpdesk.atheo.net</a>
+
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-repeat="repeat" background-size="auto" padding="20px 0px 20px 0px" text-align="center"
+                    vertical-align="top">
+            <mj-column>
+
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
